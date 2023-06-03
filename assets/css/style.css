@@ -3765,7 +3765,7 @@ Modal
 
 .rt-trending .trending-slide-title {
     font-size: 13px;
-    color: #e0e0e0;
+    color: #050303;
     position: relative;
     padding-left: 12px;
     margin-bottom: 0;
@@ -12110,8 +12110,8 @@ video {
 }
 
 .footer.footer-style-4 {
-    padding-top: 100px;
-    padding-bottom: 95px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 991px) {
