@@ -914,11 +914,11 @@ h6 {
 /*==== text color & bg color ====*/
 
 .text--primary {
-    color: #2962ff !important;
+    color: #ed2e2e !important;
 }
 
 .bg--primary {
-    background-color: #2962ff !important;
+    background-color: #ed2e2e !important;
 }
 
 .text--white {
@@ -1020,7 +1020,7 @@ select,
 
 @media (max-width: 767px) {
     .section-padding {
-        padding-top: 40px;
+        padding-top: 60px;
         padding-bottom: 60px;
     }
 }
@@ -1159,6 +1159,7 @@ section,
 
 .rt-section-heading.white-style .rt-section-line {
     border-color: #595959;
+    padding-right: 10px;
 }
 
 .rt-section-heading .rt-section-dot {
@@ -1565,8 +1566,8 @@ section,
     height: 100%;
     border-radius: 50%;
     z-index: -1;
-    background: -webkit-gradient(linear, left top, left bottom, from(#7fb7fa), to(#2962ff));
-    background: linear-gradient(180deg, #7fb7fa 0%, #2962ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#7fb7fa), to(#ed2e2e));
+    background: linear-gradient(180deg, #7fb7fa 0%, #ed2e2e 100%);
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
     visibility: hidden;
@@ -3434,7 +3435,7 @@ Modal
 ============================*/
 
 .topbar {
-    min-height: 50px;
+    min-height: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3507,7 +3508,7 @@ Modal
 
 .rt-trending .trending-title .icon {
     font-size: 0.75rem;
-    background-image: linear-gradient(45deg, #0034c2, #2962ff);
+    background-image: linear-gradient(45deg, #0034c2, #ed2e2e);
     color: var(--color-white);
     width: 28px;
     height: 28px;
@@ -3614,7 +3615,7 @@ Modal
 }
 
 .rt-top-social a:hover {
-    color: #2962ff;
+    color: #e01907 !important;
 }
 
 @media (max-width: 1199px) {
@@ -3884,7 +3885,7 @@ Modal
     bottom: 0;
     margin: auto 0;
     left: 0;
-    background: #2962ff;
+    background: #ed2e2e;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -3956,7 +3957,7 @@ Modal
 }
 
 .header-action-items .item a:hover {
-    color: #2962ff;
+    color: #ed2e2e;
 }
 
 .header-action-items .item.cart-icon {
@@ -3974,7 +3975,7 @@ Modal
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #2962ff;
+    background-color: #ed2e2e;
     color: var(--color-white);
     font-size: 0.875rem;
     display: -webkit-inline-box;
@@ -4055,11 +4056,11 @@ Modal
 .humburger:hover span,
 .humburger:hover::after,
 .humburger:hover::before {
-    background-color: #2962ff;
+    background-color: #ed2e2e;
 }
 
 .humburger:hover .menu-text {
-    color: #2962ff;
+    color: #ed2e2e;
 }
 
 .open .humburger span {
@@ -7432,7 +7433,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .rt-sidebar-section-layout-1 {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 130px;
 }
 
@@ -7443,13 +7444,13 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .rt-sidebar-section-layout-2 {
-    padding-top: 60px;
+    padding-top: 25px;
     padding-bottom: 90px;
 }
 
 @media (max-width: 991px) {
     .rt-sidebar-section-layout-2 {
-        padding: 60px 0;
+        padding: 25px 0;
     }
 }
 
@@ -9355,8 +9356,8 @@ video {
 .post-banner-style-1::after {
     border-radius: 4px;
     opacity: 0.9;
-    background-image: linear-gradient(38deg, #512da8 0%, #2962ff 100%);
-    background-image: -ms-linear-gradient(38deg, #512da8 0%, #2962ff 100%);
+    background-image: linear-gradient(38deg, #512da8 0%, #ed2e2e 100%);
+    background-image: -ms-linear-gradient(38deg, #512da8 0%, #ed2e2e 100%);
 }
 
 .post-banner-style-1 .post-content {
@@ -10073,7 +10074,7 @@ video {
 =========================*/
 
 .contact-section-layout-1 {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 130px;
     overflow: hidden;
 }
