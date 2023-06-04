@@ -10626,6 +10626,10 @@ video {
     align-items: center;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 13px;
+}
+
 .rt-filter-dropdwon .rt-filter-btn::after {
     content: "";
     font-family: "Font Awesome 5 Free";
